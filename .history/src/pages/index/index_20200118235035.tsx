@@ -3,7 +3,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View, Button, Text } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 
-import './index.module.scss'
+import './index.scss'
 
 type PageStateProps = {
   counterStore: {
@@ -71,7 +71,6 @@ class Index extends Component {
         <Button onClick={this.incrementAsync}>Add Async</Button>
         <Text>{counter}</Text>
         <Text className='iconfont'>&#xe68a;</Text>
-        <Text className='iconfont'>&#xe693;</Text>
       </View>
     )
   }

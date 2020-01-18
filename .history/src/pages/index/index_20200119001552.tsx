@@ -71,7 +71,7 @@ class Index extends Component {
         <Button onClick={this.incrementAsync}>Add Async</Button>
         <Text>{counter}</Text>
         <Text className='iconfont'>&#xe68a;</Text>
-        <Text className='iconfont'>&#xe693;</Text>
+        {/* <Text className='iconfont'>&#xe693;</Text> */}
       </View>
     )
   }
